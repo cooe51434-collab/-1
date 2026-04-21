@@ -1,1 +1,88 @@
 # -1
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>დაბადების დღეს გილოცავ!</title>
+                <style>
+                        body {
+                                        margin: 0;
+                                                    padding: 0;
+                                                                display: flex;
+                                                                            justify-content: center;
+                                                                                        align-items: center;
+                                                                                                    height: 100vh;
+                                                                                                                background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+                                                                                                                            font-family: sans-serif; /* სტანდარტული ფონტი, რომ ქართული წაიკითხოს */
+                                                                                                                                        text-align: center;
+                        }
+
+                                .card {
+                                                background: white;
+                                                            padding: 40px 20px;
+                                                                        border-radius: 25px;
+                                                                                    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+                                                                                                width: 85%;
+                                                                                                            max-width: 400px;
+                                                                                                                        position: relative;
+                                                                                                                                    z-index: 10;
+                                }
+
+                                        h1 {
+                                                        color: #ff4b5c;
+                                                                    font-size: 2rem;
+                                                                                margin-bottom: 15px;
+                                        }
+
+                                                p {
+                                                                color: #444;
+                                                                            font-size: 1.1rem;
+                                                                                        line-height: 1.6;
+                                                                                                    font-weight: bold;
+                                                }
+
+                                                        .confetti {
+                                                                        position: absolute;
+                                                                                    width: 12px;
+                                                                                                height: 12px;
+                                                                                                            top: -20px;
+                                                                                                                        animation: fall 4s linear infinite;
+                                                        }
+
+                                                                @keyframes fall {
+                                                                                to { transform: translateY(100vh) rotate(720deg); }
+                                                                }
+                                                                    </style>
+                                                                    </head>
+                                                                    <body>
+
+                                                                        <div class="card">
+                                                                                <h1>🎉 გილოცავ! 🎂</h1>
+                                                                                        <p>ყველაფერს საუკეთესოს გისურვებ!<br> 
+                                                                                                მუდამ ბედნიერი და წარმატებული იყავი!</p>
+                                                                                                        <div style="font-size: 60px; margin-top: 20px;">🎁✨</div>
+                                                                                                            </div>
+
+                                                                                                                <script>
+                                                                                                                        const colors = ['#ff4b5c', '#f2d74e', '#4fb3ff', '#9b59b6', '#2ecc71'];
+                                                                                                                                for (let i = 0; i < 60; i++) {
+                                                                                                                                                let confetti = document.createElement('div');
+                                                                                                                                                            confetti.classList.add('confetti');
+                                                                                                                                                                        confetti.style.left = Math.random() * 100 + 'vw';
+                                                                                                                                                                                    confetti.style.animationDelay = Math.random() * 4 + 's';
+                                                                                                                                                                                                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                                                                                                                                                                                                            confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+                                                                                                                                                                                                                        document.body.appendChild(confetti);
+                                                                                                                                }
+                                                                                                                                    </script>
+                                                                                                                                    </body>
+                                                                                                                                    </html>
+
+                                                                                                                                }>)
+                                                                }
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
